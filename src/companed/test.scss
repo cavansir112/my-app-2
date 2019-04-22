@@ -3,3 +3,41 @@
         color:red;
     }
 }
+
+.section{
+    width: 300px;
+    padding: 0;
+    margin: 20px 0;
+    border: solid black 1px;
+
+    h4{
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(192, 192, 192);
+        margin: 0;
+
+    }
+    p{
+        text-align: center;
+        background-color: red;
+        color: white;
+        padding: 0 10px;
+        margin: 0;
+        
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li{
+            width: 100%;
+            padding: 10px 10px;
+            border: black solid 1px;
+            font-size: 18px;
+            color: black;
+        }
+    }
+}
